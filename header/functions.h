@@ -9,5 +9,13 @@
     */
     void flipSequence(int count);
 
+    /**
+    *generate nth a fibonaci sequence
+    *@param int n  nth
+    *@return int  nth fibonaci sequence
+    */
+    int getFibonaci(int n);
+
+
 
 #endif
