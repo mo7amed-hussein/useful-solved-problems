@@ -59,3 +59,19 @@ int printFibionaci(int n)
     }
     printf("\n");
 }
+
+double getPower(double num,int exp)
+{
+    if(exp==0)
+    {
+        return 1;
+    }
+    else if (exp >0)
+    {
+        return num*getPower(num,exp-1);
+    }
+    else
+    {
+        return (1/num)*getPower(num,exp+1);
+    }
+}

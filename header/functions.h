@@ -23,6 +23,14 @@
     */
     int printFibionaci(int n);
 
+    /**
+    * calcuate power on number ,regarding negative exponent
+    *@param int num base number
+    *@param int exp expontent number
+    *@return double power
+    */
+    double getPower(double num,int exp);
+
 
 
 
