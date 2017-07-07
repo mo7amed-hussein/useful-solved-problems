@@ -95,6 +95,13 @@
     */
     int getMax(int arr[],int l);
 
+    /**
+    *draw triangle in console like right arrow head
+    *@param int h triangle height
+    */
+    void drawTri1(int h);
+
+
 
 
 

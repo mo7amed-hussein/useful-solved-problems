@@ -172,3 +172,31 @@ int getMax(int arr[],int l)
     }
     return max;
 }
+
+void drawTri1(int h)
+
+{
+    int i=0;
+    printf("\n");
+
+    for(i=1;i<=h; i++)
+    {
+        printf("\n");
+        int c=i;
+        while(c--)
+        {
+            printf("* ");
+        }
+    }
+
+    for(i=h-1;i>0; i--)
+    {
+        printf("\n");
+        int c=i;
+        while(c--)
+        {
+            printf("* ");
+        }
+    }
+
+}
