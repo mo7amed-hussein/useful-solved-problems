@@ -101,3 +101,10 @@ int dec2bin(int num ,int r)
     }
     return ret;
 }
+
+void swapXor(int *x,int* y)
+{
+    (*x)=(*x)^(*y);
+    (*y)=(*x)^(*y);
+    (*x)=(*x)^(*y);
+}

@@ -44,6 +44,12 @@
     */
     int dec2bin(int num ,int r);
 
+    /**
+    *swap two numbers using xor
+    *@param int* x ptr to first number
+    *@param int* y ptr to second number
+    */
+    void swapXor(int *x,int* y);
 
 
 
