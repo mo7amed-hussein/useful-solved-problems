@@ -121,6 +121,16 @@
     */
     int fact(int num);
 
+    /**
+    *check if array is mirrored or not
+    *@param int[] arr array to be printed
+    *@param int l array length
+    *@return int 1 if mirrored or 0 if not
+    */
+     int isArrMirrored(int arr[],int l);
+
+
+
 
 
 

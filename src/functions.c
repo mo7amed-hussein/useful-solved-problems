@@ -259,3 +259,19 @@ int fact(int num)
     }
 }
 
+int isArrMirrored(int arr[],int l)
+ {
+    int i=0;
+    int isMirrored=1;
+    for(i; i<l/2; i++)
+    {
+
+        if(arr[i]!=arr[l-1-i])
+        {
+            isMirrored=0;
+        }
+
+    }
+    return isMirrored;
+ }
+
