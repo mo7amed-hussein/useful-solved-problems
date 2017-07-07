@@ -75,3 +75,14 @@ double getPower(double num,int exp)
         return (1/num)*getPower(num,exp+1);
     }
 }
+
+void echoReverse()
+{
+    char ch;
+    ch=getchar();
+    if(ch != '\n')
+    {
+        echoReverse();
+    }
+    putchar(ch);
+}

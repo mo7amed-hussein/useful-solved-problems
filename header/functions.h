@@ -31,6 +31,11 @@
     */
     double getPower(double num,int exp);
 
+    /**
+    *print characters in reverse order after new line \n
+    */
+    void echoReverse();
+
 
 
 
