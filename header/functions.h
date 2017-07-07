@@ -129,6 +129,12 @@
     */
      int isArrMirrored(int arr[],int l);
 
+    /**
+     *count ones in binary representation of decimal number
+     *@param int number in decimal
+     *@return int number of ones
+     */
+     int countOnes(int num);
 
 
 

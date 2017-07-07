@@ -275,3 +275,16 @@ int isArrMirrored(int arr[],int l)
     return isMirrored;
  }
 
+int countOnes(int num)
+{
+    int count=0;
+    while(num!= 0)
+    {
+        if(num%2==1)
+        {
+        count++;
+        }
+        num/=2;
+    }
+    return count;
+}
