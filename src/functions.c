@@ -108,3 +108,10 @@ void swapXor(int *x,int* y)
     (*y)=(*x)^(*y);
     (*x)=(*x)^(*y);
 }
+
+void swapAS(int *x,int* y)
+{
+    (*x)=(*x)+(*y);
+    (*y)=(*x)-(*y);
+    (*x)=(*x)-(*y);
+}

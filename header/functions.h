@@ -51,6 +51,13 @@
     */
     void swapXor(int *x,int* y);
 
+    /**
+    *swap two numbers using addition and subtraction
+    *@param int* x ptr to first number
+    *@param int* y ptr to second number
+    */
+    void swapAS(int *x,int* y);
+
 
 
 #endif
