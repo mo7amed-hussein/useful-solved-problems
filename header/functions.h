@@ -114,7 +114,12 @@
     */
     void printArrWR(int arr[],int l);
 
-
+    /**
+    *calculate factorail of number
+    *@param int num number
+    *@return int factorial of number
+    */
+    int fact(int num);
 
 
 
