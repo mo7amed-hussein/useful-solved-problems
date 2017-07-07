@@ -115,3 +115,21 @@ void swapAS(int *x,int* y)
     (*y)=(*x)-(*y);
     (*x)=(*x)-(*y);
 }
+
+void swapTemp(int *x,int* y)
+{
+    int temp=(*x);
+    (*x)=(*y);
+    (*y)=temp;
+}
+
+ void printArr(int arr[],int l)
+ {
+    int i=0;
+    printf("\n[ ");
+    for(i; i<l; i++)
+    {
+        printf("%d ",arr[i]);
+    }
+    printf(" ]\n");
+}

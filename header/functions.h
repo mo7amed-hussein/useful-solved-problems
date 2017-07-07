@@ -58,6 +58,24 @@
     */
     void swapAS(int *x,int* y);
 
+    /**
+    *swap two numbers using temporary variable
+    *@param int* x ptr to first number
+    *@param int* y ptr to second number
+    */
+    void swapTemp(int *x,int* y);
+
+    /**
+    *print content of an array of int
+    *@param int[] arr array to be printed
+    *@param int l array length
+    */
+    void printArr(int arr[],int l);
+
+
+
+
+
 
 
 #endif
