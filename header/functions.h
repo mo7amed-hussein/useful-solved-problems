@@ -79,6 +79,14 @@
     */
     void reverseArr(int arr[],int l);
 
+    /**
+    *get minimum value in an array of int
+    *@param int[] arr array to be reversed
+    *@param int l array length
+    *@return int minimum value
+    */
+    int getMin(int arr[],int l);
+
 
 
 

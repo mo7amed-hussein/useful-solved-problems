@@ -144,3 +144,17 @@ void reverseArr(int arr[],int l)
         arr[l-1-i]=tmp;
     }
 }
+
+int getMin(int arr[],int l)
+{
+    int min=arr[0];
+    int i=0;
+    for(i; i<l; i++)
+    {
+        if(arr[i]<min)
+        {
+            min =arr[i];
+        }
+    }
+    return min;
+}
