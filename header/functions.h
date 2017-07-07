@@ -36,6 +36,14 @@
     */
     void echoReverse();
 
+    /**
+    *convert decimal to binary
+    *@param int number
+    *@param int r rank passed =1 ,used in algorithm
+    *@return int binary number
+    */
+    int dec2bin(int num ,int r);
+
 
 
 

@@ -86,3 +86,18 @@ void echoReverse()
     }
     putchar(ch);
 }
+
+int dec2bin(int num ,int r)
+{
+    int ret=0;
+
+    if(num/2 !=0)
+    {
+        ret=dec2bin(num/2,r*10);
+    }
+    if(num%2==1)
+    {
+        return r+ret;
+    }
+    return ret;
+}
