@@ -158,3 +158,17 @@ int getMin(int arr[],int l)
     }
     return min;
 }
+
+int getMax(int arr[],int l)
+{
+    int max=arr[0];
+    int i=0;
+    for(i; i<l; i++)
+    {
+        if(arr[i]>max)
+        {
+            max =arr[i];
+        }
+    }
+    return max;
+}

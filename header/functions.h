@@ -87,6 +87,14 @@
     */
     int getMin(int arr[],int l);
 
+    /**
+    *get maximum value in an array of int
+    *@param int[] arr array to be reversed
+    *@param int l array length
+    *@return int maximum value
+    */
+    int getMax(int arr[],int l);
+
 
 
 
