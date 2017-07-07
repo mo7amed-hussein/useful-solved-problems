@@ -16,6 +16,14 @@
     */
     int getFibonaci(int n);
 
+    /**
+    *print fibonaci sequence
+    *it doesn't depend on the previous function , different implementation
+    *@param int count  the sequence length
+    */
+    int printFibionaci(int n);
+
+
 
 
 #endif

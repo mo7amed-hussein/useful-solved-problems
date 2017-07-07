@@ -33,3 +33,29 @@ int getFibonaci(int n)
 
 
     }
+
+int printFibionaci(int n)
+
+{
+    int firstPrev=1,secondPrev=1;
+    int i =0;
+    printf("\n");
+    for(i;i<n; i++)
+    {
+
+        int current;
+
+        if( i==1 || i== 0)
+        {
+            current=1;
+        }
+        else
+        {
+            current=secondPrev+firstPrev;
+            secondPrev=firstPrev;
+            firstPrev=current;
+        }
+        printf("%d ",current);
+    }
+    printf("\n");
+}
