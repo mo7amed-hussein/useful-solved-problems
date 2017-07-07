@@ -133,3 +133,14 @@ void swapTemp(int *x,int* y)
     }
     printf(" ]\n");
 }
+
+void reverseArr(int arr[],int l)
+{
+    int i=0;
+    for(i; i<l/2; i++)
+    {
+        int tmp=arr[i];
+        arr[i]=arr[l-1-i];
+        arr[l-1-i]=tmp;
+    }
+}

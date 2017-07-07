@@ -72,6 +72,12 @@
     */
     void printArr(int arr[],int l);
 
+    /**
+    *reverse content of an array of int
+    *@param int[] arr array to be reversed
+    *@param int l array length
+    */
+    void reverseArr(int arr[],int l);
 
 
 
