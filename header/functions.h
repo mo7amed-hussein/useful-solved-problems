@@ -101,6 +101,12 @@
     */
     void drawTri1(int h);
 
+    /**
+    *draw triangle in console like up arrow head
+    *@param int h triangle height
+    */
+    void drawTri2(int h);
+
 
 
 

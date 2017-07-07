@@ -200,3 +200,25 @@ void drawTri1(int h)
     }
 
 }
+
+void drawTri2(int h)
+{
+    int i=0;
+    printf("\n");
+
+    for(i=1; i<=h; i++)
+    {
+        int spaces=h-i;
+        while(spaces--)
+        {
+            printf("  ");
+        }
+        int stars=2*i-1;
+        while(stars--)
+        {
+            printf("* ");
+        }
+        printf("\n");
+    }
+}
+
