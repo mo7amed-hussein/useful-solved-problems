@@ -288,3 +288,17 @@ int countOnes(int num)
     }
     return count;
 }
+
+int little2big(int num)
+{
+    int i=0;
+    int big=0;
+    for(i=0; i<4; i++)
+    {
+        int tmp=num >> (8*i);
+        tmp=tmp&0xff;
+        tmp =tmp<<(8*(3-i));
+        big +=tmp;
+    }
+    return big;
+}

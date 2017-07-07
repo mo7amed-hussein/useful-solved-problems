@@ -136,6 +136,14 @@
      */
      int countOnes(int num);
 
+     /**
+     *convert little indian to big indian
+     *@param int number in little indian
+     *@return int number in big indian
+     */
+
+     int little2big(int num);
+
 
 
 
