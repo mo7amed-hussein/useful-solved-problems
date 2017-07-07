@@ -222,3 +222,29 @@ void drawTri2(int h)
     }
 }
 
+void printArrWR(int arr[],int l)
+{
+    int i=0,j=0,isRepeated;
+    printf("\n[ ");
+
+    for(i; i<l; i++)
+    {
+        isRepeated=0;
+
+        for(j=i-1; j>=0 ; j--)
+        {
+            if(arr[i]==arr[j])
+            {
+                isRepeated=1;
+            }
+        }
+        if(isRepeated==0)
+        {
+            printf("%d ",arr[i]);
+        }
+
+    }
+    printf(" ]\n");
+}
+
+

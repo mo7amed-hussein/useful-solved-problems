@@ -107,6 +107,12 @@
     */
     void drawTri2(int h);
 
+    /**
+    *print content of an array of int without repeat [1,1,2,3,2,2,3,4] => [1,2,3,4]
+    *@param int[] arr array to be printed
+    *@param int l array length
+    */
+    void printArrWR(int arr[],int l);
 
 
 
